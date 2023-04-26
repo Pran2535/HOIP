@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/STYLE.CSS">
+    <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Fasthand&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <section class="header">
+        <nav>
+            <img src="/logo.jpg" alt="">
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    <li><a href="">PRICING</a></li>
+                    <li><a href="">ABOUT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>GAYA PHOTOSHOP</h1>
+            <p>PIC's to which you fall in love with</p>
+            <a href="" class="hero-btn">visit us to know more</a>
+        </div>
+    </section>
+    <section class="campus">
+    <h1>Our  edits</h1>
+    <p>we have the best editors to edit your photos</p>
+<div class="row">
+    <div class="campus-col">
+        <img src="/IMG-20230426-WA0006.jpg" alt="">
+        <div class="layer">
+            <h3>first image</h3>
+        </div>
+    </div>
+        <div class="campus-col">
+            <img src="/IMG-20230426-WA0009.jpg" alt="">
+            <div class="layer">
+                <h3>second image</h3>
+            </div></div>
+            <div class="campus-col">
+                <img src="/IMG-20230426-WA0007.jpg" alt="">
+                <div class="layer">
+                    <h3>third image</h3>
+                </div>
+    </div>
+</div>  
+</section>
+<section class="course">
+    <h1>PRICING</h1>
+<div class="row">
+<div class="course-col">
+<h3>NORMAL CAMERA</h3>
+<p>NORMAL CAMERA COST VARIES FROM 250/HR-300/HR</p>
+</div>
+<div class="course-col">
+<h3>DSLR-CAMERA WITH LOW LENS</h3>
+<p>DSLR CAMERA COST VARIES FROM 350/HR-400/HR</p>
+</div>
+<div class="course-col">
+<h3>HIGH LENS DSLR CAMERA</h3>
+    <p>HIGH LENS DSLR CAMERA COST VARIES FROM 450/HR-500/HR</p>
+
+</div>
+</div>
+</section>
+<section class="course">
+    <h1>FACILITIES</h1>
+<div class="row">
+<div class="course-col">
+<h3>EDITING BY SIMPLE PHOTOSHOP</h3>
+<p> ONLY FOR NORMAL CAMERA COST VARIES FROM 250/HR-300/HR</p>
+</div>
+<div class="course-col">
+<h3>EDITING BY HIGHLY PROFIENCY APPS</h3>
+<p>ONLY FOR DSLR CAMERA COST VARIES FROM 350/HR-400/HR</p>
+</div>
+<div class="course-col">
+<h3>EDITING BY PROFESSIONALS DESIGNERS</h3>
+    <p> ONLY FOR HIGH LENS DSLR CAMERA COST VARIES FROM 450/HR-500/HR</p>
+
+</div>
+</div>
+</section>
+    <script>
+        var navlinks = document.getElementById("navlinks")
+        function showMenu(){
+            navlinks.style.right ="0";
+        }
+        function hideMenu(){
+            navlinks.style.right ="-200px";
+
+        }
+    </script>
+</body>
+</html>
